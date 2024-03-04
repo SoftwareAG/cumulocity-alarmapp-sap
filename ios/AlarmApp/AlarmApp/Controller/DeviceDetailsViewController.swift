@@ -20,7 +20,7 @@ import UIKit
 
 class DeviceDetailsViewController: UIViewController {
     @IBOutlet var nameItem: DetailsItem!
-    @IBOutlet var systemIdItem: DetailsItem!
+    @IBOutlet var openDeviceButton: UIButton!
     @IBOutlet var typeItem: DetailsItem!
     @IBOutlet var serialNumberItem: DetailsItem!
     @IBOutlet var externalIdItem: DetailsItem!
@@ -42,7 +42,7 @@ class DeviceDetailsViewController: UIViewController {
 
         self.$device.sink { value in
             self.nameItem.valueLabel.text = value?.name
-            self.systemIdItem.valueLabel.text = value?.id
+            self.openDeviceButton.setTitle(value?.id, for: [])
             if let hardware = value?[C8yFragments.c8yHardware.rawValue] {
                 if let c8yHardware = hardware as? C8yHardware {
                     self.serialNumberItem.valueLabel.text = c8yHardware.serialNumber
@@ -95,6 +95,15 @@ class DeviceDetailsViewController: UIViewController {
                     }
                 )
                 .store(in: &self.cancellableSet)
+        }
+    }
+
+    @IBAction func deepLinkRequested(_ sender: UIButton) {
+        if let url = URL(string: "samclient://create/MyNotificationHeaders") {
+            if UIApplication.shared.canOpenURL(url) {
+                UIApplication.shared.open(url) { _ in
+                }
+            }
         }
     }
 

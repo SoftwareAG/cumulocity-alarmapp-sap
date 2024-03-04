@@ -692,7 +692,7 @@
                                                 <rect key="frame" x="0.0" y="59" width="350" height="70.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" horizontalCompressionResistancePriority="760" text="%alarm_details_device" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UPt-8Y-Uce" userLabel="deviceTitleLabel" customClass="MaterialLabel" customModule="AlarmApp" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="28" width="146.5" height="14.5"/>
+                                                        <rect key="frame" x="0.0" y="28" width="130.5" height="14.5"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -701,7 +701,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rw2-S9-KHO" userLabel="openDeviceButton">
-                                                        <rect key="frame" x="138.5" y="8" width="211.5" height="54.5"/>
+                                                        <rect key="frame" x="122.5" y="8" width="227.5" height="54.5"/>
                                                         <color key="tintColor" name="primary"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" image="arrow.right" catalog="system" imagePlacement="trailing" title="View Device" imagePadding="8" cornerStyle="capsule" titleAlignment="trailing">
@@ -905,7 +905,7 @@
                                                 <rect key="frame" x="0.0" y="200" width="350" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="%alarm_details_alarm_status" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vli-gZ-xpb" userLabel="statusLabel" customClass="MaterialLabel" customModule="AlarmApp" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="18" width="197.5" height="14.5"/>
+                                                        <rect key="frame" x="0.0" y="18" width="167" height="14.5"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -935,7 +935,7 @@
                                                 <rect key="frame" x="0.0" y="250" width="350" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="%alarm_details_alarm_severity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mbu-Uk-kQx" userLabel="severityLabel" customClass="MaterialLabel" customModule="AlarmApp" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="18" width="208.5" height="14.5"/>
+                                                        <rect key="frame" x="0.0" y="18" width="176.5" height="14.5"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -965,7 +965,7 @@
                                                 <rect key="frame" x="0.0" y="300" width="350" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="%alarm_details_alarm_changelog" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KDJ-iw-eLa" userLabel="changelogTitleLabel" customClass="MaterialLabel" customModule="AlarmApp" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="18" width="227" height="14.5"/>
+                                                        <rect key="frame" x="0.0" y="18" width="190.5" height="14.5"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -1126,37 +1126,66 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pjr-LY-5U8" userLabel="detailsCard" customClass="MaterialCardView" customModule="AlarmApp" customModuleProvider="target">
-                                <rect key="frame" x="16" y="160" width="382" height="455.5"/>
+                                <rect key="frame" x="16" y="160" width="382" height="425.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="6Gn-f2-RHz">
-                                        <rect key="frame" x="16" y="16" width="350" height="423.5"/>
+                                        <rect key="frame" x="16" y="16" width="350" height="393.5"/>
                                         <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="187-Zd-m5P">
+                                                <rect key="frame" x="0.0" y="0.0" width="350" height="70.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" horizontalCompressionResistancePriority="760" text="%device_details_device_system_id" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CcZ-mS-q11" userLabel="systemIdLabel" customClass="MaterialLabel" customModule="AlarmApp" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="28" width="200.5" height="14.5"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="uppercased" value="YES"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GN1-Rt-GZM" userLabel="openDeviceButton">
+                                                        <rect key="frame" x="192.5" y="8" width="157.5" height="54.5"/>
+                                                        <color key="tintColor" name="primary"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" image="arrow.up.right" catalog="system" imagePlacement="trailing" imagePadding="8" cornerStyle="capsule">
+                                                            <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
+                                                            <color key="baseForegroundColor" name="primary"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="deepLinkRequested:" destination="tVs-ob-7Ku" eventType="touchUpInside" id="OsA-kz-lec"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="CcZ-mS-q11" firstAttribute="centerY" secondItem="187-Zd-m5P" secondAttribute="centerY" id="6CP-Hf-P8X"/>
+                                                    <constraint firstItem="CcZ-mS-q11" firstAttribute="trailing" secondItem="GN1-Rt-GZM" secondAttribute="leading" constant="8" id="6Lm-Fh-TC3"/>
+                                                    <constraint firstAttribute="bottom" secondItem="GN1-Rt-GZM" secondAttribute="bottom" constant="8" id="hD4-At-y1g"/>
+                                                    <constraint firstItem="CcZ-mS-q11" firstAttribute="leading" secondItem="187-Zd-m5P" secondAttribute="leading" id="lj5-dn-5Sg"/>
+                                                    <constraint firstItem="GN1-Rt-GZM" firstAttribute="top" secondItem="187-Zd-m5P" secondAttribute="top" constant="8" id="rvR-Pf-dmV"/>
+                                                    <constraint firstAttribute="trailing" secondItem="GN1-Rt-GZM" secondAttribute="trailing" id="vcM-R3-Fk9"/>
+                                                </constraints>
+                                            </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NfB-iO-hvT" userLabel="nameItem" customClass="DetailsItem" customModule="AlarmApp" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="350" height="173"/>
+                                                <rect key="frame" x="0.0" y="70.5" width="350" height="173"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="%device_details_device_name"/>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G1i-Pu-Zlq" userLabel="systemIdItem" customClass="DetailsItem" customModule="AlarmApp" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="173" width="350" height="100.5"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="%device_details_device_system_id"/>
-                                                </userDefinedRuntimeAttributes>
-                                            </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8oY-38-4YV" userLabel="typeItem" customClass="DetailsItem" customModule="AlarmApp" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="273.5" width="350" height="50"/>
+                                                <rect key="frame" x="0.0" y="243.5" width="350" height="50"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="%device_details_device_type"/>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a50-F2-ieL" userLabel="serialNumberItem" customClass="DetailsItem" customModule="AlarmApp" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="323.5" width="350" height="50"/>
+                                                <rect key="frame" x="0.0" y="293.5" width="350" height="50"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="%device_details_device_serial"/>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lzG-U3-J6B" userLabel="externalIdItem" customClass="DetailsItem" customModule="AlarmApp" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="373.5" width="350" height="50"/>
+                                                <rect key="frame" x="0.0" y="343.5" width="350" height="50"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="%device_details_device_external_id"/>
                                                 </userDefinedRuntimeAttributes>
@@ -1173,7 +1202,7 @@
                                 </constraints>
                             </view>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M6D-Nf-brh">
-                                <rect key="frame" x="0.0" y="631.5" width="414" height="264.5"/>
+                                <rect key="frame" x="0.0" y="601.5" width="414" height="294.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <segue destination="XFs-OZ-b02" kind="embed" identifier="embedDeviceAlarms" id="gUc-Hx-Ntr"/>
@@ -1198,8 +1227,8 @@
                     <connections>
                         <outlet property="externalIdItem" destination="lzG-U3-J6B" id="86p-hv-btx"/>
                         <outlet property="nameItem" destination="NfB-iO-hvT" id="pbH-Lr-Vmt"/>
+                        <outlet property="openDeviceButton" destination="GN1-Rt-GZM" id="MCX-nA-SuZ"/>
                         <outlet property="serialNumberItem" destination="a50-F2-ieL" id="ywI-OF-y7w"/>
-                        <outlet property="systemIdItem" destination="G1i-Pu-Zlq" id="xqV-LT-Umc"/>
                         <outlet property="typeItem" destination="8oY-38-4YV" id="JR5-rh-W3C"/>
                     </connections>
                 </viewController>
@@ -1212,7 +1241,7 @@
             <objects>
                 <tableViewController id="XFs-OZ-b02" customClass="DeviceAlarmsViewController" customModule="AlarmApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" id="ubu-c9-GYk">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="264.5"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="294.5"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="separatorColor" name="onBackground"/>
@@ -1486,72 +1515,76 @@
             <size key="intrinsicContentSize" width="43" height="14.5"/>
         </designable>
         <designable name="6a8-vd-5pZ">
-            <size key="intrinsicContentSize" width="288" height="20.5"/>
+            <size key="intrinsicContentSize" width="304.5" height="20.5"/>
         </designable>
         <designable name="9TG-zy-fck">
-            <size key="intrinsicContentSize" width="213.5" height="54"/>
+            <size key="intrinsicContentSize" width="226.5" height="34"/>
+        </designable>
+        <designable name="CcZ-mS-q11">
+            <size key="intrinsicContentSize" width="200.5" height="14.5"/>
         </designable>
         <designable name="DRu-hU-JxC">
-            <size key="intrinsicContentSize" width="210.5" height="14.5"/>
+            <size key="intrinsicContentSize" width="221.5" height="14.5"/>
         </designable>
         <designable name="Gjv-Ij-dwz">
-            <size key="intrinsicContentSize" width="308.5" height="54"/>
+            <size key="intrinsicContentSize" width="321" height="34"/>
         </designable>
         <designable name="HS5-Mx-q6q">
-            <size key="intrinsicContentSize" width="236" height="54"/>
+            <size key="intrinsicContentSize" width="249" height="34"/>
         </designable>
         <designable name="KDJ-iw-eLa">
-            <size key="intrinsicContentSize" width="227" height="14.5"/>
+            <size key="intrinsicContentSize" width="190.5" height="14.5"/>
         </designable>
         <designable name="NIh-Ed-2LP">
-            <size key="intrinsicContentSize" width="131" height="20.5"/>
+            <size key="intrinsicContentSize" width="146.5" height="20.5"/>
         </designable>
         <designable name="OGj-eP-ls6">
-            <size key="intrinsicContentSize" width="292" height="26.5"/>
+            <size key="intrinsicContentSize" width="310.5" height="26.5"/>
         </designable>
         <designable name="S5b-ax-eaZ">
-            <size key="intrinsicContentSize" width="222.5" height="54"/>
+            <size key="intrinsicContentSize" width="235" height="34"/>
         </designable>
         <designable name="ULu-Kf-ey0">
-            <size key="intrinsicContentSize" width="160.5" height="14.5"/>
+            <size key="intrinsicContentSize" width="144.5" height="14.5"/>
         </designable>
         <designable name="UPt-8Y-Uce">
-            <size key="intrinsicContentSize" width="146.5" height="14.5"/>
+            <size key="intrinsicContentSize" width="130.5" height="14.5"/>
         </designable>
         <designable name="aSk-zk-67H">
-            <size key="intrinsicContentSize" width="133.5" height="14.5"/>
+            <size key="intrinsicContentSize" width="144.5" height="14.5"/>
         </designable>
         <designable name="iYk-Va-PUR">
-            <size key="intrinsicContentSize" width="140.5" height="20.5"/>
+            <size key="intrinsicContentSize" width="157" height="20.5"/>
         </designable>
         <designable name="its-aK-z0C">
-            <size key="intrinsicContentSize" width="242" height="54"/>
+            <size key="intrinsicContentSize" width="255" height="34"/>
         </designable>
         <designable name="mbu-Uk-kQx">
-            <size key="intrinsicContentSize" width="208.5" height="14.5"/>
+            <size key="intrinsicContentSize" width="176.5" height="14.5"/>
         </designable>
         <designable name="msw-qt-RXU">
-            <size key="intrinsicContentSize" width="228.5" height="54"/>
+            <size key="intrinsicContentSize" width="241.5" height="34"/>
         </designable>
         <designable name="ssR-Sb-Twm">
-            <size key="intrinsicContentSize" width="182" height="33.5"/>
+            <size key="intrinsicContentSize" width="205.5" height="33.5"/>
         </designable>
         <designable name="svi-gS-fYQ">
-            <size key="intrinsicContentSize" width="321.5" height="54"/>
+            <size key="intrinsicContentSize" width="334.5" height="34"/>
         </designable>
         <designable name="vli-gZ-xpb">
-            <size key="intrinsicContentSize" width="197.5" height="14.5"/>
+            <size key="intrinsicContentSize" width="167" height="14.5"/>
         </designable>
         <designable name="wvY-I2-w3p">
-            <size key="intrinsicContentSize" width="142.5" height="14.5"/>
+            <size key="intrinsicContentSize" width="153.5" height="14.5"/>
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="3Sc-pV-3it"/>
+        <segue reference="8On-CZ-LhH"/>
         <segue reference="ina-48-qVJ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrow.right" catalog="system" width="128" height="95"/>
+        <image name="arrow.up.right" catalog="system" width="128" height="112"/>
         <image name="ellipsis.circle.fill" catalog="system" width="128" height="123"/>
         <image name="magnifyingglass.circle.fill" catalog="system" width="128" height="123"/>
         <image name="pencil.circle.fill" catalog="system" width="128" height="123"/>
